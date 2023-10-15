@@ -1,5 +1,5 @@
 {
-  "source": "/feedback/:id",
-  "destination": "/API/feedback/:id"
-    "buildCommand": "next build"  "cleanUrls": true
+    "rewrites": [
+        { "source": "/{.*}","destination": "/"}
+    ]
 }
